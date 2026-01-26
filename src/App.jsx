@@ -1,6 +1,6 @@
 import React from 'react'
-import Sidebar from "./components/layout/sidebar.jsx";
-import Header from "./components/header/header.jsx";
+import Sidebar from "./journey/components/layout/sidebar.jsx";
+import Header from "./journey/components/header/header.jsx";
 
 function App() {
   return (
