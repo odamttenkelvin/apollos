@@ -1,7 +1,7 @@
 import React from 'react'
-import Sidebar from "./journey/components/layout/sidebar.jsx";
 import Header from "./journey/components/header/header.jsx";
 import QuoteBar from "./journey/components/quote-bar/quote-bar.jsx";
+import AnnouncementPage from "./journey/components/announcement/announcement-page.jsx";
 
 function App() {
   return (
@@ -13,6 +13,7 @@ function App() {
                 {/*<Sidebar />*/}
                 <div className='flex-1 flex-col overflow-y-auto bg-gray-50 dark:bg-slate-800'>
                     <Header />
+                    <AnnouncementPage />
                 </div>
             </div>
       </div>

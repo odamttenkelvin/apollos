@@ -1,5 +1,5 @@
 import React from 'react'
-import {Filter, Menu, Search, Plus, Sun, Bell, Settings, User} from 'lucide-react'
+import {UserPlus} from 'lucide-react'
 
 function Header(){
 
@@ -32,7 +32,7 @@ function Header(){
             {/*    </button>*/}
             {/*</div>*/}
             {/*/!* Toggle*!/*/}
-            {/*<button className={'p-2.5 rounded-xl text-slate-600 hover:bg-slate-100 dark:text-slate-300 dark:hover:bg-slate-800  transition-colors'}>*/}
+            {/*<button className={'p-2.5 rounded-xl text-slate-600 hover:bg-slate-100 dark:text-slate-300 dark:hover:bg-slate-800 transition-colors'}>*/}
             {/*    <Sun className='w-5 h-5' />*/}
             {/*</button>*/}
 
@@ -77,7 +77,7 @@ function Header(){
 
             {/*User profile dropdown*/}
             <div className='flex items-center space-x-3'>
-                <User className='w-5 h-5 bg-slate-100 ring-blue-500 object-cover'/>
+                <UserPlus className='w-5 h-5 bg-slate-100 ring-blue-500 object-cover'/>
                 <p className='text-sm font-medium text-slate-800 dark:text-white'>Account</p>
             </div>
 
